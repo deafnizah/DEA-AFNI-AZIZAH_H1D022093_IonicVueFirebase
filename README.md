@@ -86,4 +86,4 @@ Jalankan perintah `npx cap open android`, lalu lakukan build di Android Studio. 
 
 **SS Tampilan APK**  
 ![Lampiran APK](app.jpeg)
-![Lampiran APK](home-android.jpeg)
+![Lampiran APK](home_android.jpeg)
