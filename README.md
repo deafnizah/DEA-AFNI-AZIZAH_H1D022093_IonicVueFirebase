@@ -57,3 +57,33 @@ Shift Baru: C
 5. Halaman profil (`ProfilePage.vue`) akan menampilkan informasi pengguna dari `authStore`, termasuk nama, email, dan foto profil.
 6. Setelah login pengguna dapat mengakses halaman profil. Jika pengguna belum login, mereka akan diarahkan kembali ke halaman login.
 7. Pengguna bisa logout dan menghapus sesi autentikasi mereka dan mengembalikan mereka ke halaman login.
+
+##To Do List
+**Tampilan Create**  
+![Lampiran Create](create-form-phone.jpeg)
+![Lampiran Create](create-after-phone.jpeg)
+Pada tampilan Create, pengguna dapat menambahkan tugas baru ke dalam daftar. Pengguna mengisi form dengan informasi seperti judul dan deskripsi tugas, kemudian menekan tombol "Add Todo" untuk menyimpan tugas baru ke dalam Firebase.
+
+**Tampilan Update**  
+![Lampiran Edit](update-phone.jpeg)
+![Lampiran Edit](update-form-phone.jpeg)
+![Lampiran Edit](update-after-phone.jpeg)
+Pada tampilan Update, pengguna dapat memperbarui informasi tugas yang sudah ada. Setelah memilih tugas, form edit akan muncul dengan opsi untuk mengubah informasi seperti judul dan deskripsi.
+
+**Tampilan Read**  
+![Lampiran Home](home-phone.jpeg)
+![Lampiran Home](completed1.jpeg)
+![Lampiran Home](completed2.jpeg)
+Tampilan Read memperlihatkan daftar tugas yang tersimpan dalam database Firebase. Setiap tugas menampilkan detail seperti judul, deskripsi singkat, serta waktu terakhir diperbarui.
+
+**Tampilan Delete**  
+![Lampiran Delete](delete-phone.jpeg)
+![Lampiran Delete](delete-after-phone.jpeg)
+Untuk menghapus tugas, pengguna bisa melakukan swipe atau menekan ikon "Trash". Sistem kemudian akan menghapus tugas tersebut dari daftar dan database Firebase.
+
+**Cara Build APK**  
+Jalankan perintah `npx cap open android`, lalu lakukan build di Android Studio. Setelah selesai, buka folder proyek, masuk ke `android/app/build/output`, dan instal file .APK yang ada.
+
+**SS Tampilan APK**  
+![Lampiran APK](app.jpeg)
+![Lampiran APK](home-android.jpeg)
